@@ -1,0 +1,44 @@
+Inference time: 0.0116 seconds
+
+Predictions:
+{'numeric': 21, 'entailment': 11, 'temporal': 1, 'neutral': 1, 'structure': 2}
+
+Distribution:
+Entailment: 30.56%, Neutral: 2.78%, Contradictions: 66.67%
+
+[(0.96, 'numeric'),
+ (0.97, 'numeric'),
+ (0.96, 'numeric'),
+ (0.68, 'numeric'),
+ (0.44, 'entailment'),
+ (0.38, 'numeric'),
+ (0.9, 'numeric'),
+ (0.96, 'numeric'),
+ (0.93, 'numeric'),
+ (0.82, 'temporal'),
+ (0.92, 'numeric'),
+ (0.97, 'numeric'),
+ (0.97, 'numeric'),
+ (0.97, 'numeric'),
+ (0.97, 'numeric'),
+ (0.95, 'numeric'),
+ (0.93, 'numeric'),
+ (0.9, 'numeric'),
+ (0.59, 'numeric'),
+ (0.92, 'numeric'),
+ (0.86, 'numeric'),
+ (0.36, 'neutral'),
+ (0.85, 'numeric'),
+ (0.77, 'numeric'),
+ (0.98, 'entailment'),
+ (0.5, 'structure'),
+ (0.79, 'structure'),
+ (0.97, 'entailment'),
+ (0.97, 'entailment'),
+ (0.97, 'entailment'),
+ (0.95, 'entailment'),
+ (0.9, 'entailment'),
+ (0.92, 'entailment'),
+ (0.96, 'entailment'),
+ (0.74, 'entailment'),
+ (0.56, 'entailment')]

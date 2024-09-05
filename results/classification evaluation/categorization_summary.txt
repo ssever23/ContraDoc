@@ -1,0 +1,72 @@
+False contradiction categories:
+
+- A: all relevant information within pair, but structural weak understanding of language model
+- B: all relevant information within pair, but semantic weak understanding of language model
+- C: relevant context within bigger chunks of pair
+- D: relevant context in document itself (such as title, summary, etc.)
+- E: lack in training dataset (should either be neutral or entailment)
+
+-> a false contradiction can belong to more than one category
+
+
+Langchain Sentences:
+
+- Total pairs: 257
+- In total 74 false contradictions:
+
+- A: 25
+- B: 16
+- C: 23
+- D: 13
+- E: 19
+
+Examples:
+
+32 ['Service business achieved a significant increase in revenue in the reporting period.', 'The segment’s service business saw its revenue fall slightly owing to exchange rates.', 'worldknowledge']
+
+	Tables: 
+
+59 ['KION Group  Figures for the First Quarter 2024  in million  € Q1/2024  Q1/2023  Diff.', 'Q4 2023  Q4 2022  Diff.', 'temporal']
+60 ['Revenue   Industrial Trucks & Services  Supply Chain Solutions  2,859  2,153 719 2,781  2,005 783 2.8%  7.4% -8.1%', 'Q4 2023  Q4 2022  Diff.', 'temporal']
+
+	Synonyms:
+
+66 ['[3] Free cash flow is defined as cash flow from ongoing business plus cash flow from investment activity.', '[3] Free cash flow is defined as cash flow from operating activities plus cash flow from investing activities.', 'lexical']
+
+	Same phrase, but cut off:
+
+72 ['The KION Group’s solutions ensure the smooth flow of materials and information in', 'The KION Group’s solutions ensure the smooth flow of materials and information in customers’ warehouses, production plants, and distribution centers in over 100 countries.', 'structure']
+
+
+Langchain Chunks:
+
+- Total pairs: 32
+- In total 16 false contradictions:
+
+- A: 6
+- B: 2
+- C: 0
+- D: 6
+- E: 5
+
+Custom Chunks:
+
+- Total pairs: 36
+- In total 18 false contradictions
+
+- A: 13
+- B: 2
+- C: 0
+- D: 3
+- E: 2
+
+Custom Sentences:
+
+- Total pairs: 48
+- In total 22 false contradictions
+
+- A: 11
+- B: 1
+- C: 6
+- D: 5
+- E: 3

@@ -1,0 +1,11 @@
+Report of Search 1 for Epoch 2:
+
+               precision    recall  f1-score   support
+
+   entailment     0.9167    0.9167    0.9167       108
+      neutral     0.9714    1.0000    0.9855        68
+contradiction     0.9470    0.9328    0.9398       134
+
+     accuracy                         0.9419       310
+    macro avg     0.9450    0.9498    0.9473       310
+ weighted avg     0.9418    0.9419    0.9418       310

@@ -1,0 +1,9 @@
+Inference time: 0.0062 seconds
+
+Predictions:
+{'numeric': 14, 'temporal': 3, 'entailment': 26, 'worldknowledge': 3, 'factive_antonymity': 1, 'negation': 1}
+
+Distribution:
+Entailment: 54.17%, Neutral: 0.00%, Contradictions: 45.83%
+
+[(0.66, 'numeric'), (0.97, 'numeric'), (0.61, 'temporal'), (0.91, 'numeric'), (0.74, 'entailment'), (0.64, 'entailment'), (0.95, 'numeric'), (0.95, 'numeric'), (0.97, 'entailment'), (0.97, 'numeric'), (0.86, 'worldknowledge'), (0.65, 'worldknowledge'), (0.91, 'entailment'), (0.96, 'numeric'), (0.87, 'numeric'), (0.97, 'numeric'), (0.7, 'worldknowledge'), (0.9, 'numeric'), (0.29, 'entailment'), (0.98, 'numeric'), (0.96, 'numeric'), (0.33, 'entailment'), (0.4, 'temporal'), (0.37, 'entailment'), (0.97, 'numeric'), (0.75, 'numeric'), (0.9, 'entailment'), (0.63, 'entailment'), (0.75, 'temporal'), (0.96, 'entailment'), (0.44, 'factive_antonymity'), (0.77, 'entailment'), (0.97, 'entailment'), (0.96, 'entailment'), (0.94, 'entailment'), (0.96, 'entailment'), (0.96, 'entailment'), (0.97, 'entailment'), (0.95, 'entailment'), (0.96, 'entailment'), (0.96, 'entailment'), (0.87, 'entailment'), (0.97, 'entailment'), (0.81, 'negation'), (0.93, 'entailment'), (0.91, 'entailment'), (0.4, 'entailment'), (0.79, 'entailment')]

@@ -1,0 +1,13 @@
+Report of Search 1 for Epoch 5:
+
+               precision    recall  f1-score   support
+
+   entailment     0.9694    0.8796    0.9223       108
+      neutral     0.9041    0.9706    0.9362        68
+contradiction     0.9353    0.9701    0.9524       134
+
+     accuracy                         0.9387       310
+    macro avg     0.9362    0.9401    0.9370       310
+ weighted avg     0.9403    0.9387    0.9384       310
+
+ 

@@ -1,0 +1,2 @@
+Search 1 | Total epochs: 12 | Best epoch: 2 with loss: 5.4698344469070435 and accuracy of 94.19999999999999% | LR: 5.5e-06 | BS: 32
+Highest accuracy: 95.8% at epoch 5
