@@ -2,21 +2,21 @@ Report of Search 1 for Epoch 1:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.0000    0.0000    0.0000       108
+            antonymity     0.0870    0.4000    0.1429        15
+            entailment     0.4918    0.2778    0.3550       108
     factive_antonymity     0.0000    0.0000    0.0000        15
 factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.0000    0.0000    0.0000        68
-               numeric     0.0000    0.0000    0.0000        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0498    1.0000    0.0949        15
+               lexical     0.0312    0.0667    0.0426        15
+              negation     0.2857    0.2667    0.2759        15
+               neutral     0.8378    0.4559    0.5905        68
+               numeric     0.2885    1.0000    0.4478        15
+             structure     0.2051    0.5333    0.2963        15
+              temporal     0.6667    0.2857    0.4000        14
+        worldknowledge     0.0000    0.0000    0.0000        15
 
-              accuracy                         0.0484       310
-             macro avg     0.0045    0.0909    0.0086       310
-          weighted avg     0.0024    0.0484    0.0046       310
+              accuracy                         0.3194       310
+             macro avg     0.2631    0.2987    0.2319       310
+          weighted avg     0.4287    0.3194    0.3296       310
 
 -----End of Report-----
 
@@ -24,21 +24,21 @@ Report of Search 1 for Epoch 2:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.0000    0.0000    0.0000       108
+            antonymity     0.3333    0.4667    0.3889        15
+            entailment     0.8919    0.3056    0.4552       108
     factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
+factive_embedding_verb     0.5000    0.2000    0.2857        15
+               lexical     0.1111    0.2667    0.1569        15
               negation     0.0000    0.0000    0.0000        15
-               neutral     0.0000    0.0000    0.0000        68
-               numeric     0.0000    0.0000    0.0000        15
-             structure     0.0484    1.0000    0.0923        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+               neutral     0.5500    0.9706    0.7021        68
+               numeric     0.6000    1.0000    0.7500        15
+             structure     0.3684    0.9333    0.5283        15
+              temporal     0.4000    0.4286    0.4138        14
+        worldknowledge     0.4545    0.3333    0.3846        15
 
-              accuracy                         0.0484       310
-             macro avg     0.0044    0.0909    0.0084       310
-          weighted avg     0.0023    0.0484    0.0045       310
+              accuracy                         0.4935       310
+             macro avg     0.3827    0.4459    0.3696       310
+          weighted avg     0.5640    0.4935    0.4520       310
 
 -----End of Report-----
 
@@ -46,21 +46,21 @@ Report of Search 1 for Epoch 3:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.0000    0.0000    0.0000       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.0000    0.0000    0.0000        68
-               numeric     0.3684    0.9333    0.5283        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.0478    0.9286    0.0909        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.4444    0.2667    0.3333        15
+            entailment     0.9012    0.6759    0.7725       108
+    factive_antonymity     0.5000    0.2000    0.2857        15
+factive_embedding_verb     0.3529    0.4000    0.3750        15
+               lexical     0.4286    0.2000    0.2727        15
+              negation     0.3947    1.0000    0.5660        15
+               neutral     0.7021    0.9706    0.8148        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.6190    0.8667    0.7222        15
+              temporal     0.6429    0.6429    0.6429        14
+        worldknowledge     0.6667    0.2667    0.3810        15
 
-              accuracy                         0.0871       310
-             macro avg     0.0378    0.1693    0.0563       310
-          weighted avg     0.0200    0.0871    0.0297       310
+              accuracy                         0.6806       310
+             macro avg     0.5941    0.5899    0.5549       310
+          weighted avg     0.7045    0.6806    0.6643       310
 
 -----End of Report-----
 
@@ -68,21 +68,21 @@ Report of Search 1 for Epoch 4:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0417    0.2667    0.0721        15
-            entailment     1.0000    0.0093    0.0183       108
-    factive_antonymity     0.1765    0.4000    0.2449        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
+            antonymity     0.5000    0.2667    0.3478        15
+            entailment     0.9634    0.7315    0.8316       108
+    factive_antonymity     0.5789    0.7333    0.6471        15
+factive_embedding_verb     0.4615    0.4000    0.4286        15
                lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.2934    0.7206    0.4170        68
-               numeric     0.6667    0.5333    0.5926        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+              negation     0.6087    0.9333    0.7368        15
+               neutral     0.7765    0.9706    0.8627        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.5909    0.8667    0.7027        15
+              temporal     0.5417    0.9286    0.6842        14
+        worldknowledge     0.6250    0.6667    0.6452        15
 
-              accuracy                         0.2194       310
-             macro avg     0.1980    0.1754    0.1223       310
-          weighted avg     0.4556    0.2194    0.1419       310
+              accuracy                         0.7452       310
+             macro avg     0.5935    0.6816    0.6204       310
+          weighted avg     0.7359    0.7452    0.7250       310
 
 -----End of Report-----
 
@@ -90,21 +90,21 @@ Report of Search 1 for Epoch 5:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.0000    0.0000    0.0000       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.2308    0.0441    0.0741        68
-               numeric     0.2027    1.0000    0.3371        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.1111    0.1429    0.1250        14
-        worldknowledge     0.0539    0.7333    0.1005        15
+            antonymity     0.6667    0.2667    0.3810        15
+            entailment     0.9560    0.8056    0.8744       108
+    factive_antonymity     0.4286    0.2000    0.2727        15
+factive_embedding_verb     0.5000    0.5333    0.5161        15
+               lexical     0.2353    0.2667    0.2500        15
+              negation     0.7000    0.9333    0.8000        15
+               neutral     0.8272    0.9853    0.8993        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.7647    0.8667    0.8125        15
+              temporal     0.6250    0.7143    0.6667        14
+        worldknowledge     0.5000    0.7333    0.5946        15
 
-              accuracy                         0.1000       310
-             macro avg     0.0544    0.1746    0.0579       310
-          weighted avg     0.0681    0.1000    0.0431       310
+              accuracy                         0.7613       310
+             macro avg     0.6442    0.6641    0.6368       310
+          weighted avg     0.7691    0.7613    0.7529       310
 
 -----End of Report-----
 
@@ -112,21 +112,21 @@ Report of Search 1 for Epoch 6:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.6667    0.0556    0.1026       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.2651    0.8382    0.4028        68
-               numeric     0.4286    1.0000    0.6000        15
-             structure     0.0526    0.0667    0.0588        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.4000    0.4000    0.4000        15
+            entailment     0.9694    0.8796    0.9223       108
+    factive_antonymity     0.5000    0.6000    0.5455        15
+factive_embedding_verb     0.6667    0.5333    0.5926        15
+               lexical     0.7143    0.3333    0.4545        15
+              negation     0.5556    1.0000    0.7143        15
+               neutral     0.9167    0.9706    0.9429        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.8125    0.8667    0.8387        15
+              temporal     0.6667    0.8571    0.7500        14
+        worldknowledge     0.7000    0.4667    0.5600        15
 
-              accuracy                         0.2548       310
-             macro avg     0.1285    0.1782    0.1058       310
-          weighted avg     0.3137    0.2548    0.1560       310
+              accuracy                         0.8097       310
+             macro avg     0.7076    0.7189    0.6962       310
+          weighted avg     0.8220    0.8097    0.8060       310
 
 -----End of Report-----
 
@@ -134,21 +134,21 @@ Report of Search 1 for Epoch 7:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.0000    0.0000    0.0000       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.3012    0.7353    0.4274        68
-               numeric     0.3947    1.0000    0.5660        15
-             structure     0.0755    0.5333    0.1322        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.5455    0.4000    0.4615        15
+            entailment     0.9423    0.9074    0.9245       108
+    factive_antonymity     0.5263    0.6667    0.5882        15
+factive_embedding_verb     0.7000    0.4667    0.5600        15
+               lexical     0.7778    0.4667    0.5833        15
+              negation     0.5600    0.9333    0.7000        15
+               neutral     0.9429    0.9706    0.9565        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     1.0000    0.8667    0.9286        15
+              temporal     0.6316    0.8571    0.7273        14
+        worldknowledge     0.6923    0.6000    0.6429        15
 
-              accuracy                         0.2355       310
-             macro avg     0.0701    0.2062    0.1023       310
-          weighted avg     0.0888    0.2355    0.1275       310
+              accuracy                         0.8290       310
+             macro avg     0.7455    0.7396    0.7282       310
+          weighted avg     0.8387    0.8290    0.8261       310
 
 -----End of Report-----
 
@@ -156,21 +156,21 @@ Report of Search 1 for Epoch 8:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     1.0000    0.0278    0.0541       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0494    0.2667    0.0833        15
-              negation     0.0000    0.0000    0.0000        15
-               neutral     0.3072    0.7500    0.4359        68
-               numeric     0.4545    1.0000    0.6250        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.4000    0.1333    0.2000        15
+            entailment     0.9895    0.8704    0.9261       108
+    factive_antonymity     0.2857    0.2667    0.2759        15
+factive_embedding_verb     0.5556    0.6667    0.6061        15
+               lexical     0.3125    0.3333    0.3226        15
+              negation     0.7778    0.9333    0.8485        15
+               neutral     0.9054    0.9853    0.9437        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     1.0000    0.8000    0.8889        15
+              temporal     0.5882    0.7143    0.6452        14
+        worldknowledge     0.4583    0.7333    0.5641        15
 
-              accuracy                         0.2355       310
-             macro avg     0.1647    0.1859    0.1089       310
-          weighted avg     0.4402    0.2355    0.1487       310
+              accuracy                         0.7871       310
+             macro avg     0.6505    0.6761    0.6508       310
+          weighted avg     0.7960    0.7871    0.7835       310
 
 -----End of Report-----
 
@@ -178,21 +178,21 @@ Report of Search 1 for Epoch 9:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0556    0.2667    0.0920        15
-            entailment     0.0000    0.0000    0.0000       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.1000    0.1333    0.1143        15
-               neutral     0.3793    0.4853    0.4258        68
-               numeric     0.3750    1.0000    0.5455        15
-             structure     0.0795    0.4667    0.1359        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.6250    0.3333    0.4348        15
+            entailment     0.9604    0.8981    0.9282       108
+    factive_antonymity     0.4583    0.7333    0.5641        15
+factive_embedding_verb     0.5833    0.4667    0.5185        15
+               lexical     0.8750    0.4667    0.6087        15
+              negation     0.5833    0.9333    0.7179        15
+               neutral     0.9565    0.9706    0.9635        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.8667    0.8667    0.8667        15
+              temporal     0.6111    0.7857    0.6875        14
+        worldknowledge     0.6429    0.6000    0.6207        15
 
-              accuracy                         0.1968       310
-             macro avg     0.0899    0.2138    0.1194       310
-          weighted avg     0.1127    0.1968    0.1364       310
+              accuracy                         0.8226       310
+             macro avg     0.7314    0.7322    0.7135       310
+          weighted avg     0.8390    0.8226    0.8207       310
 
 -----End of Report-----
 
@@ -200,21 +200,21 @@ Report of Search 1 for Epoch 10:
 
                         precision    recall  f1-score   support
 
-            antonymity     1.0000    0.0667    0.1250        15
-            entailment     1.0000    0.0093    0.0183       108
-    factive_antonymity     0.5000    0.0667    0.1176        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0182    0.0667    0.0286        15
-              negation     0.1071    0.2000    0.1395        15
-               neutral     0.4394    0.4265    0.4328        68
-               numeric     0.2419    1.0000    0.3896        15
-             structure     0.0857    0.2000    0.1200        15
-              temporal     0.0667    0.2857    0.1081        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.4286    0.4000    0.4138        15
+            entailment     0.9700    0.8981    0.9327       108
+    factive_antonymity     0.4762    0.6667    0.5556        15
+factive_embedding_verb     0.7500    0.4000    0.5217        15
+               lexical     0.6667    0.5333    0.5926        15
+              negation     0.6364    0.9333    0.7568        15
+               neutral     0.9178    0.9853    0.9504        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     1.0000    0.8667    0.9286        15
+              temporal     0.6250    0.7143    0.6667        14
+        worldknowledge     0.5000    0.4667    0.4828        15
 
-              accuracy                         0.1871       310
-             macro avg     0.3145    0.2110    0.1345       310
-          weighted avg     0.5423    0.1871    0.1508       310
+              accuracy                         0.8161       310
+             macro avg     0.7139    0.7149    0.7035       310
+          weighted avg     0.8259    0.8161    0.8146       310
 
 -----End of Report-----
 
@@ -222,21 +222,21 @@ Report of Search 1 for Epoch 11:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0909    0.3333    0.1429        15
-            entailment     0.3953    0.1574    0.2252       108
-    factive_antonymity     0.1538    0.1333    0.1429        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.1304    0.2000    0.1579        15
-               neutral     0.5536    0.4559    0.5000        68
-               numeric     0.3261    1.0000    0.4918        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.0465    0.1429    0.0702        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.3000    0.2000    0.2400        15
+            entailment     0.9612    0.9167    0.9384       108
+    factive_antonymity     0.3600    0.6000    0.4500        15
+factive_embedding_verb     0.7273    0.5333    0.6154        15
+               lexical     0.6364    0.4667    0.5385        15
+              negation     0.6667    0.9333    0.7778        15
+               neutral     0.9437    0.9853    0.9640        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     1.0000    0.6000    0.7500        15
+              temporal     0.7143    0.7143    0.7143        14
+        worldknowledge     0.5000    0.6000    0.5455        15
 
-              accuracy                         0.2419       310
-             macro avg     0.1542    0.2203    0.1573       310
-          weighted avg     0.2952    0.2419    0.2366       310
+              accuracy                         0.8065       310
+             macro avg     0.6993    0.6863    0.6792       310
+          weighted avg     0.8196    0.8065    0.8055       310
 
 -----End of Report-----
 
@@ -244,21 +244,21 @@ Report of Search 1 for Epoch 12:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     1.0000    0.0093    0.0183       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.1429    0.0667    0.0909        15
-              negation     0.3333    0.2000    0.2500        15
-               neutral     0.4615    0.7059    0.5581        68
-               numeric     0.4828    0.9333    0.6364        15
-             structure     0.0775    0.7333    0.1401        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
+            antonymity     0.6667    0.4000    0.5000        15
+            entailment     0.9519    0.9167    0.9340       108
+    factive_antonymity     0.3448    0.6667    0.4545        15
+factive_embedding_verb     0.7500    0.4000    0.5217        15
+               lexical     0.5000    0.2000    0.2857        15
+              negation     0.5833    0.9333    0.7179        15
+               neutral     0.9306    0.9853    0.9571        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     0.8667    0.8667    0.8667        15
+              temporal     0.6667    0.7143    0.6897        14
+        worldknowledge     0.5455    0.4000    0.4615        15
 
-              accuracy                         0.2516       310
-             macro avg     0.2271    0.2408    0.1540       310
-          weighted avg     0.4998    0.2516    0.1829       310
+              accuracy                         0.8032       310
+             macro avg     0.6989    0.6803    0.6660       310
+          weighted avg     0.8145    0.8032    0.7961       310
 
 -----End of Report-----
 
@@ -266,21 +266,21 @@ Report of Search 1 for Epoch 13:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0294    0.0667    0.0408        15
-            entailment     0.5000    0.1111    0.1818       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0667    0.0667    0.0667        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2121    0.4667    0.2917        15
-               neutral     0.5676    0.6176    0.5915        68
-               numeric     0.4643    0.8667    0.6047        15
-             structure     0.1186    0.4667    0.1892        15
-              temporal     0.0667    0.1429    0.0909        14
-        worldknowledge     0.0833    0.0667    0.0741        15
+            antonymity     0.2667    0.2667    0.2667        15
+            entailment     0.9429    0.9167    0.9296       108
+    factive_antonymity     0.4211    0.5333    0.4706        15
+factive_embedding_verb     0.7500    0.4000    0.5217        15
+               lexical     0.2857    0.1333    0.1818        15
+              negation     0.5200    0.8667    0.6500        15
+               neutral     0.9565    0.9706    0.9635        68
+               numeric     0.9375    1.0000    0.9677        15
+             structure     0.7222    0.8667    0.7879        15
+              temporal     0.6471    0.7857    0.7097        14
+        worldknowledge     0.6364    0.4667    0.5385        15
 
-              accuracy                         0.2774       310
-             macro avg     0.1917    0.2611    0.1938       310
-          weighted avg     0.3489    0.2774    0.2585       310
+              accuracy                         0.7871       310
+             macro avg     0.6442    0.6551    0.6352       310
+          weighted avg     0.7872    0.7871    0.7794       310
 
 -----End of Report-----
 
@@ -288,21 +288,21 @@ Report of Search 1 for Epoch 14:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.1000    0.4667    0.1647        15
-            entailment     0.6250    0.0463    0.0862       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0909    0.0667    0.0769        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2000    0.3333    0.2500        15
-               neutral     0.7551    0.5441    0.6325        68
-               numeric     0.3684    0.9333    0.5283        15
-             structure     0.1176    0.4000    0.1818        15
-              temporal     0.0833    0.2143    0.1200        14
-        worldknowledge     0.1765    0.2000    0.1875        15
+            antonymity     0.5000    0.4667    0.4828        15
+            entailment     0.9608    0.9074    0.9333       108
+    factive_antonymity     0.5000    0.6667    0.5714        15
+factive_embedding_verb     0.8182    0.6000    0.6923        15
+               lexical     0.5000    0.4000    0.4444        15
+              negation     0.7000    0.9333    0.8000        15
+               neutral     0.9571    0.9853    0.9710        68
+               numeric     0.8824    1.0000    0.9375        15
+             structure     1.0000    0.8667    0.9286        15
+              temporal     0.6250    0.7143    0.6667        14
+        worldknowledge     0.6000    0.6000    0.6000        15
 
-              accuracy                         0.2613       310
-             macro avg     0.2288    0.2913    0.2025       310
-          weighted avg     0.4381    0.2613    0.2414       310
+              accuracy                         0.8323       310
+             macro avg     0.7312    0.7400    0.7298       310
+          weighted avg     0.8391    0.8323    0.8323       310
 
 -----End of Report-----
 
@@ -310,21 +310,21 @@ Report of Search 1 for Epoch 15:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.7222    0.1204    0.2063       108
-    factive_antonymity     0.0625    0.0667    0.0645        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2500    0.4667    0.3256        15
-               neutral     0.4860    0.7647    0.5943        68
-               numeric     0.5217    0.8000    0.6316        15
-             structure     0.0435    0.0667    0.0526        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0750    0.4000    0.1263        15
+            antonymity     0.4762    0.6667    0.5556        15
+            entailment     0.9706    0.9167    0.9429       108
+    factive_antonymity     0.5556    0.3333    0.4167        15
+factive_embedding_verb     0.7143    0.3333    0.4545        15
+               lexical     0.3913    0.6000    0.4737        15
+              negation     0.6842    0.8667    0.7647        15
+               neutral     0.9306    0.9853    0.9571        68
+               numeric     0.9375    1.0000    0.9677        15
+             structure     1.0000    0.8667    0.9286        15
+              temporal     0.6250    0.7143    0.6667        14
+        worldknowledge     0.5833    0.4667    0.5185        15
 
-              accuracy                         0.2968       310
-             macro avg     0.1964    0.2441    0.1819       310
-          weighted avg     0.4043    0.2968    0.2603       310
+              accuracy                         0.8161       310
+             macro avg     0.7153    0.7045    0.6952       310
+          weighted avg     0.8290    0.8161    0.8143       310
 
 -----End of Report-----
 
@@ -332,1847 +332,21 @@ Report of Search 1 for Epoch 16:
 
                         precision    recall  f1-score   support
 
-            antonymity     0.0476    0.0667    0.0556        15
-            entailment     0.4884    0.1944    0.2781       108
-    factive_antonymity     0.2222    0.1333    0.1667        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.1111    0.0667    0.0833        15
-              negation     0.2571    0.6000    0.3600        15
-               neutral     0.5248    0.7794    0.6272        68
-               numeric     0.4000    0.9333    0.5600        15
-             structure     0.1250    0.4000    0.1905        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.1667    0.0667    0.0952        15
-
-              accuracy                         0.3484       310
-             macro avg     0.2130    0.2946    0.2197       310
-          weighted avg     0.3496    0.3484    0.3076       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 17:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.0000    0.0000    0.0000        15
-            entailment     0.4444    0.0370    0.0684       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0690    0.1333    0.0909        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2558    0.7333    0.3793        15
-               neutral     0.5591    0.7647    0.6460        68
-               numeric     0.5000    0.7333    0.5946        15
-             structure     0.1455    0.5333    0.2286        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0833    0.1333    0.1026        15
-
-              accuracy                         0.2903       310
-             macro avg     0.1870    0.2789    0.1918       310
-          weighted avg     0.3285    0.2903    0.2331       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 18:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1538    0.2667    0.1951        15
-            entailment     0.4630    0.2315    0.3086       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.0000    0.0000    0.0000        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3000    0.4000    0.3429        15
-               neutral     0.6471    0.6471    0.6471        68
-               numeric     0.4000    0.9333    0.5600        15
-             structure     0.1154    0.4000    0.1791        15
-              temporal     0.0882    0.2143    0.1250        14
-        worldknowledge     0.2000    0.0667    0.1000        15
-
-              accuracy                         0.3323       310
-             macro avg     0.2152    0.2872    0.2234       310
-          weighted avg     0.3638    0.3323    0.3217       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 19:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.0385    0.0667    0.0488        15
-            entailment     0.4545    0.0926    0.1538       108
-    factive_antonymity     0.0000    0.0000    0.0000        15
-factive_embedding_verb     0.1000    0.0667    0.0800        15
-               lexical     0.0714    0.0667    0.0690        15
-              negation     0.2500    0.7333    0.3729        15
-               neutral     0.6250    0.7353    0.6757        68
-               numeric     0.5417    0.8667    0.6667        15
-             structure     0.1379    0.5333    0.2192        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0323    0.0667    0.0435        15
-
-              accuracy                         0.3097       310
-             macro avg     0.2047    0.2934    0.2118       310
-          weighted avg     0.3522    0.3097    0.2744       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 20:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.5000    0.0667    0.1176        15
-            entailment     0.7619    0.1481    0.2481       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.3333    0.0667    0.1111        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2727    0.2000    0.2308        15
-               neutral     0.5385    0.8235    0.6512        68
-               numeric     0.5217    0.8000    0.6316        15
-             structure     0.1579    0.2000    0.1765        15
-              temporal     0.0952    0.2857    0.1429        14
-        worldknowledge     0.0896    0.4000    0.1463        15
-
-              accuracy                         0.3355       310
-             macro avg     0.3087    0.2840    0.2350       310
-          weighted avg     0.4846    0.3355    0.3104       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 21:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.0800    0.1333    0.1000        15
-            entailment     0.5789    0.1019    0.1732       108
-    factive_antonymity     0.1667    0.1333    0.1481        15
-factive_embedding_verb     0.0465    0.1333    0.0690        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3333    0.4667    0.3889        15
-               neutral     0.5321    0.8529    0.6554        68
-               numeric     0.5238    0.7333    0.6111        15
-             structure     0.1905    0.2667    0.2222        15
-              temporal     0.1429    0.1429    0.1429        14
-        worldknowledge     0.0909    0.1333    0.1081        15
-
-              accuracy                         0.3258       310
-             macro avg     0.2441    0.2816    0.2381       310
-          weighted avg     0.3941    0.3258    0.2903       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 22:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.0588    0.0667    0.0625        15
-            entailment     0.6154    0.1481    0.2388       108
-    factive_antonymity     0.2000    0.2000    0.2000        15
-factive_embedding_verb     0.0769    0.1333    0.0976        15
-               lexical     0.0500    0.0667    0.0571        15
-              negation     0.2895    0.7333    0.4151        15
-               neutral     0.5521    0.7794    0.6463        68
-               numeric     0.5455    0.8000    0.6486        15
-             structure     0.0000    0.0000    0.0000        15
-              temporal     0.5000    0.1429    0.2222        14
-        worldknowledge     0.0698    0.2000    0.1034        15
-
-              accuracy                         0.3355       310
-             macro avg     0.2689    0.2973    0.2447       310
-          weighted avg     0.4205    0.3355    0.3117       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 23:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1515    0.3333    0.2083        15
-            entailment     0.5000    0.0370    0.0690       108
-    factive_antonymity     0.1429    0.2000    0.1667        15
-factive_embedding_verb     0.0758    0.3333    0.1235        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2647    0.6000    0.3673        15
-               neutral     0.6818    0.6618    0.6716        68
-               numeric     0.5200    0.8667    0.6500        15
-             structure     0.2609    0.4000    0.3158        15
-              temporal     0.2500    0.0714    0.1111        14
-        worldknowledge     0.0714    0.1333    0.0930        15
-
-              accuracy                         0.3000       310
-             macro avg     0.2654    0.3306    0.2524       310
-          weighted avg     0.4070    0.3000    0.2695       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 24:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2000    0.1333    0.1600        15
-            entailment     0.6071    0.1574    0.2500       108
-    factive_antonymity     0.1111    0.2667    0.1569        15
-factive_embedding_verb     0.0625    0.0667    0.0645        15
-               lexical     0.0952    0.1333    0.1111        15
-              negation     0.2727    0.2000    0.2308        15
-               neutral     0.5364    0.8676    0.6629        68
-               numeric     0.5455    0.8000    0.6486        15
-             structure     0.1667    0.0667    0.0952        15
-              temporal     0.1667    0.0714    0.1000        14
-        worldknowledge     0.1136    0.3333    0.1695        15
-
-              accuracy                         0.3452       310
-             macro avg     0.2616    0.2815    0.2409       310
-          weighted avg     0.4125    0.3452    0.3162       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 25:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1556    0.4667    0.2333        15
-            entailment     0.5000    0.1111    0.1818       108
-    factive_antonymity     0.1429    0.1333    0.1379        15
-factive_embedding_verb     0.1500    0.2000    0.1714        15
-               lexical     0.0952    0.1333    0.1111        15
-              negation     0.3226    0.6667    0.4348        15
-               neutral     0.6984    0.6471    0.6718        68
-               numeric     0.5417    0.8667    0.6667        15
-             structure     0.3125    0.3333    0.3226        15
-              temporal     0.1071    0.2143    0.1429        14
-        worldknowledge     0.1250    0.2000    0.1538        15
-
-              accuracy                         0.3355       310
-             macro avg     0.2865    0.3611    0.2935       310
-          weighted avg     0.4215    0.3355    0.3251       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 26:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.4667    0.3256        15
-            entailment     0.6154    0.0741    0.1322       108
-    factive_antonymity     0.2632    0.3333    0.2941        15
-factive_embedding_verb     0.0526    0.1333    0.0755        15
-               lexical     0.0455    0.0667    0.0541        15
-              negation     0.3500    0.4667    0.4000        15
-               neutral     0.5823    0.6765    0.6259        68
-               numeric     0.5455    0.8000    0.6486        15
-             structure     0.1429    0.0667    0.0909        15
-              temporal     0.2000    0.2143    0.2069        14
-        worldknowledge     0.0851    0.2667    0.1290        15
-
-              accuracy                         0.3097       310
-             macro avg     0.2848    0.3241    0.2712       310
-          weighted avg     0.4351    0.3097    0.2903       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 27:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1500    0.2000    0.1714        15
-            entailment     0.4815    0.1204    0.1926       108
-    factive_antonymity     0.2727    0.2000    0.2308        15
-factive_embedding_verb     0.0714    0.2667    0.1127        15
-               lexical     0.2000    0.1333    0.1600        15
-              negation     0.2973    0.7333    0.4231        15
-               neutral     0.6000    0.7500    0.6667        68
-               numeric     0.5500    0.7333    0.6286        15
-             structure     0.2800    0.4667    0.3500        15
-              temporal     0.2500    0.1429    0.1818        14
-        worldknowledge     0.0909    0.0667    0.0769        15
-
-              accuracy                         0.3484       310
-             macro avg     0.2949    0.3467    0.2904       310
-          weighted avg     0.4032    0.3484    0.3257       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 28:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2800    0.4667    0.3500        15
-            entailment     0.5556    0.2778    0.3704       108
-    factive_antonymity     0.2308    0.2000    0.2143        15
-factive_embedding_verb     0.1250    0.1333    0.1290        15
-               lexical     0.0435    0.0667    0.0526        15
-              negation     0.3333    0.4000    0.3636        15
-               neutral     0.6125    0.7206    0.6622        68
-               numeric     0.5455    0.8000    0.6486        15
-             structure     0.2917    0.4667    0.3590        15
-              temporal     0.1667    0.2143    0.1875        14
-        worldknowledge     0.1765    0.2000    0.1875        15
-
-              accuracy                         0.3968       310
-             macro avg     0.3055    0.3587    0.3204       310
-          weighted avg     0.4335    0.3968    0.3943       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 29:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1707    0.4667    0.2500        15
-            entailment     0.3750    0.1389    0.2027       108
-    factive_antonymity     0.1667    0.0667    0.0952        15
-factive_embedding_verb     0.1250    0.2667    0.1702        15
-               lexical     0.5000    0.0667    0.1176        15
-              negation     0.3226    0.6667    0.4348        15
-               neutral     0.6575    0.7059    0.6809        68
-               numeric     0.5238    0.7333    0.6111        15
-             structure     0.1556    0.4667    0.2333        15
-              temporal     0.0833    0.0714    0.0769        14
-        worldknowledge     0.1429    0.0667    0.0909        15
-
-              accuracy                         0.3419       310
-             macro avg     0.2930    0.3378    0.2694       310
-          weighted avg     0.3806    0.3419    0.3204       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 30:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1628    0.4667    0.2414        15
-            entailment     0.5517    0.1481    0.2336       108
-    factive_antonymity     0.2000    0.1333    0.1600        15
-factive_embedding_verb     0.1250    0.2000    0.1538        15
-               lexical     0.1000    0.2667    0.1455        15
-              negation     0.3529    0.4000    0.3750        15
-               neutral     0.6400    0.7059    0.6713        68
-               numeric     0.5238    0.7333    0.6111        15
-             structure     0.3000    0.4000    0.3429        15
-              temporal     0.2000    0.1429    0.1667        14
-        worldknowledge     0.1429    0.2000    0.1667        15
-
-              accuracy                         0.3484       310
-             macro avg     0.2999    0.3452    0.2971       310
-          weighted avg     0.4339    0.3484    0.3424       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 31:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3571    0.3333    0.3448        15
-            entailment     0.7368    0.2593    0.3836       108
-    factive_antonymity     0.1667    0.2667    0.2051        15
-factive_embedding_verb     0.1053    0.1333    0.1176        15
-               lexical     0.1429    0.1333    0.1379        15
-              negation     0.3333    0.2667    0.2963        15
-               neutral     0.5364    0.8676    0.6629        68
-               numeric     0.5294    0.6000    0.5625        15
-             structure     0.3333    0.1333    0.1905        15
-              temporal     0.1429    0.2857    0.1905        14
-        worldknowledge     0.1786    0.3333    0.2326        15
-
-              accuracy                         0.4000       310
-             macro avg     0.3239    0.3284    0.3022       310
-          weighted avg     0.4847    0.4000    0.3886       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 32:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3000    0.2000    0.2400        15
-            entailment     0.5926    0.1481    0.2370       108
-    factive_antonymity     0.2857    0.1333    0.1818        15
-factive_embedding_verb     0.1212    0.2667    0.1667        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2500    0.6000    0.3529        15
-               neutral     0.5644    0.8382    0.6746        68
-               numeric     0.5500    0.7333    0.6286        15
-             structure     0.2143    0.6000    0.3158        15
-              temporal     0.1667    0.1429    0.1538        14
-        worldknowledge     0.1176    0.1333    0.1250        15
-
-              accuracy                         0.3710       310
-             macro avg     0.2875    0.3451    0.2797       310
-          weighted avg     0.4267    0.3710    0.3348       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 33:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2857    0.4000    0.3333        15
-            entailment     0.5000    0.1296    0.2059       108
-    factive_antonymity     0.3750    0.2000    0.2609        15
-factive_embedding_verb     0.0896    0.4000    0.1463        15
-               lexical     0.2000    0.1333    0.1600        15
-              negation     0.3478    0.5333    0.4211        15
-               neutral     0.5577    0.8529    0.6744        68
-               numeric     0.5500    0.7333    0.6286        15
-             structure     0.3333    0.2667    0.2963        15
-              temporal     0.2500    0.1429    0.1818        14
-        worldknowledge     0.1111    0.0667    0.0833        15
-
-              accuracy                         0.3710       310
-             macro avg     0.3273    0.3508    0.3084       310
-          weighted avg     0.4187    0.3710    0.3406       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 34:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3043    0.4667    0.3684        15
-            entailment     0.5500    0.2037    0.2973       108
-    factive_antonymity     0.2500    0.2000    0.2222        15
-factive_embedding_verb     0.0500    0.1333    0.0727        15
-               lexical     0.1053    0.1333    0.1176        15
-              negation     0.3077    0.2667    0.2857        15
-               neutral     0.6207    0.7941    0.6968        68
-               numeric     0.5000    0.6000    0.5455        15
-             structure     0.3077    0.2667    0.2857        15
-              temporal     0.1600    0.2857    0.2051        14
-        worldknowledge     0.1500    0.2000    0.1714        15
-
-              accuracy                         0.3677       310
-             macro avg     0.3005    0.3227    0.2971       310
-          weighted avg     0.4306    0.3677    0.3658       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 35:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2222    0.2667    0.2424        15
-            entailment     0.5641    0.2037    0.2993       108
-    factive_antonymity     0.2353    0.2667    0.2500        15
-factive_embedding_verb     0.0625    0.0667    0.0645        15
-               lexical     0.0800    0.2667    0.1231        15
-              negation     0.3043    0.4667    0.3684        15
-               neutral     0.6923    0.6618    0.6767        68
-               numeric     0.5217    0.8000    0.6316        15
-             structure     0.2727    0.2000    0.2308        15
-              temporal     0.1500    0.2143    0.1765        14
-        worldknowledge     0.1071    0.2000    0.1395        15
-
-              accuracy                         0.3484       310
-             macro avg     0.2920    0.3285    0.2912       310
-          weighted avg     0.4425    0.3484    0.3599       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 36:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1333    0.5333    0.2133        15
-            entailment     0.4386    0.2315    0.3030       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.1429    0.0667    0.0909        15
-               lexical     0.0645    0.1333    0.0870        15
-              negation     0.4211    0.5333    0.4706        15
-               neutral     0.8372    0.5294    0.6486        68
-               numeric     0.5000    0.6000    0.5455        15
-             structure     0.2069    0.4000    0.2727        15
-              temporal     0.1034    0.2143    0.1395        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.3194       310
-             macro avg     0.2703    0.3008    0.2598       310
-          weighted avg     0.4182    0.3194    0.3397       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 37:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2308    0.4000    0.2927        15
-            entailment     0.4730    0.3241    0.3846       108
-    factive_antonymity     0.2857    0.1333    0.1818        15
-factive_embedding_verb     0.0952    0.1333    0.1111        15
-               lexical     0.1818    0.1333    0.1538        15
-              negation     0.3500    0.4667    0.4000        15
-               neutral     0.6203    0.7206    0.6667        68
-               numeric     0.5000    0.6000    0.5455        15
-             structure     0.2143    0.2000    0.2069        15
-              temporal     0.0968    0.2143    0.1333        14
-        worldknowledge     0.2222    0.1333    0.1667        15
-
-              accuracy                         0.3871       310
-             macro avg     0.2973    0.3144    0.2948       310
-          weighted avg     0.4059    0.3871    0.3859       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 38:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2083    0.3333    0.2564        15
-            entailment     0.4231    0.1019    0.1642       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.0784    0.2667    0.1212        15
-               lexical     0.0833    0.1333    0.1026        15
-              negation     0.2368    0.6000    0.3396        15
-               neutral     0.6267    0.6912    0.6573        68
-               numeric     0.6000    0.6000    0.6000        15
-             structure     0.3000    0.4000    0.3429        15
-              temporal     0.1250    0.0714    0.0909        14
-        worldknowledge     0.0769    0.0667    0.0714        15
-
-              accuracy                         0.3129       310
-             macro avg     0.2621    0.3089    0.2614       310
-          weighted avg     0.3732    0.3129    0.3005       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 39:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2273    0.3333    0.2703        15
-            entailment     0.5286    0.3426    0.4157       108
-    factive_antonymity     0.2500    0.0667    0.1053        15
-factive_embedding_verb     0.0769    0.0667    0.0714        15
-               lexical     0.1481    0.2667    0.1905        15
-              negation     0.3684    0.4667    0.4118        15
-               neutral     0.6364    0.7206    0.6759        68
-               numeric     0.5333    0.5333    0.5333        15
-             structure     0.2667    0.5333    0.3556        15
-              temporal     0.1875    0.2143    0.2000        14
-        worldknowledge     0.2353    0.2667    0.2500        15
-
-              accuracy                         0.4097       310
-             macro avg     0.3144    0.3464    0.3163       310
-          weighted avg     0.4341    0.4097    0.4080       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 40:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2917    0.4667    0.3590        15
-            entailment     0.5634    0.3704    0.4469       108
-    factive_antonymity     0.1111    0.1333    0.1212        15
-factive_embedding_verb     0.1111    0.0667    0.0833        15
-               lexical     0.1111    0.1333    0.1212        15
-              negation     0.1667    0.0667    0.0952        15
-               neutral     0.6023    0.7794    0.6795        68
-               numeric     0.5263    0.6667    0.5882        15
-             structure     0.3750    0.2000    0.2609        15
-              temporal     0.1471    0.3571    0.2083        14
-        worldknowledge     0.2000    0.2000    0.2000        15
-
-              accuracy                         0.4097       310
-             macro avg     0.2914    0.3128    0.2876       310
-          weighted avg     0.4266    0.4097    0.4027       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 41:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2381    0.3333    0.2778        15
-            entailment     0.5625    0.2500    0.3462       108
-    factive_antonymity     0.1875    0.2000    0.1935        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.0833    0.2000    0.1176        15
-              negation     0.2400    0.4000    0.3000        15
-               neutral     0.6667    0.6176    0.6412        68
-               numeric     0.5294    0.6000    0.5625        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1071    0.2143    0.1429        14
-        worldknowledge     0.1163    0.3333    0.1724        15
-
-              accuracy                         0.3419       310
-             macro avg     0.2960    0.3044    0.2765       310
-          weighted avg     0.4399    0.3419    0.3602       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 42:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1818    0.4000    0.2500        15
-            entailment     0.5306    0.2407    0.3312       108
-    factive_antonymity     0.1579    0.2000    0.1765        15
-factive_embedding_verb     0.0833    0.2667    0.1270        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2222    0.4000    0.2857        15
-               neutral     0.6618    0.6618    0.6618        68
-               numeric     0.5789    0.7333    0.6471        15
-             structure     0.2800    0.4667    0.3500        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.2000    0.0667    0.1000        15
-
-              accuracy                         0.3548       310
-             macro avg     0.2763    0.3188    0.2749       310
-          weighted avg     0.4189    0.3548    0.3585       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 43:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1522    0.4667    0.2295        15
-            entailment     0.5410    0.3056    0.3905       108
-    factive_antonymity     0.0909    0.0667    0.0769        15
-factive_embedding_verb     0.0800    0.1333    0.1000        15
-               lexical     0.0870    0.1333    0.1053        15
-              negation     0.3077    0.2667    0.2857        15
-               neutral     0.6351    0.6912    0.6620        68
-               numeric     0.5556    0.6667    0.6061        15
-             structure     0.2273    0.3333    0.2703        15
-              temporal     0.2000    0.1429    0.1667        14
-        worldknowledge     0.1429    0.0667    0.0909        15
-
-              accuracy                         0.3677       310
-             macro avg     0.2745    0.2975    0.2713       310
-          weighted avg     0.4163    0.3677    0.3742       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 44:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2400    0.4000    0.3000        15
-            entailment     0.4754    0.2685    0.3432       108
-    factive_antonymity     0.1429    0.2667    0.1860        15
-factive_embedding_verb     0.0400    0.0667    0.0500        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2667    0.2667    0.2667        15
-               neutral     0.6250    0.7353    0.6757        68
-               numeric     0.4615    0.8000    0.5854        15
-             structure     0.2500    0.0667    0.1053        15
-              temporal     0.2308    0.2143    0.2222        14
-        worldknowledge     0.2000    0.1333    0.1600        15
-
-              accuracy                         0.3613       310
-             macro avg     0.2666    0.2926    0.2631       310
-          weighted avg     0.3906    0.3613    0.3578       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 45:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1818    0.1333    0.1538        15
-            entailment     0.5821    0.3611    0.4457       108
-    factive_antonymity     0.1667    0.2000    0.1818        15
-factive_embedding_verb     0.1111    0.1333    0.1212        15
-               lexical     0.1500    0.2000    0.1714        15
-              negation     0.1538    0.1333    0.1429        15
-               neutral     0.5941    0.8824    0.7101        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.2143    0.2143    0.2143        14
-        worldknowledge     0.2188    0.4667    0.2979        15
-
-              accuracy                         0.4161       310
-             macro avg     0.3016    0.2962    0.2819       310
-          weighted avg     0.4361    0.4161    0.4045       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 46:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.4000    0.3636        15
-            entailment     0.4848    0.2963    0.3678       108
-    factive_antonymity     0.2000    0.0667    0.1000        15
-factive_embedding_verb     0.0741    0.2667    0.1159        15
-               lexical     0.1667    0.2000    0.1818        15
-              negation     0.4000    0.1333    0.2000        15
-               neutral     0.5701    0.8971    0.6971        68
-               numeric     0.5714    0.5333    0.5517        15
-             structure     0.3333    0.2000    0.2500        15
-              temporal     0.2500    0.0714    0.1111        14
-        worldknowledge     0.1000    0.0667    0.0800        15
-
-              accuracy                         0.3935       310
-             macro avg     0.3167    0.2847    0.2745       310
-          weighted avg     0.4107    0.3935    0.3753       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 47:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2381    0.3333    0.2778        15
-            entailment     0.5342    0.3611    0.4309       108
-    factive_antonymity     0.1429    0.2000    0.1667        15
-factive_embedding_verb     0.0571    0.1333    0.0800        15
-               lexical     0.0667    0.0667    0.0667        15
-              negation     0.2381    0.3333    0.2778        15
-               neutral     0.6163    0.7794    0.6883        68
-               numeric     0.6154    0.5333    0.5714        15
-             structure     0.3333    0.1333    0.1905        15
-              temporal     0.1250    0.0714    0.0909        14
-        worldknowledge     0.1818    0.1333    0.1538        15
-
-              accuracy                         0.3903       310
-             macro avg     0.2863    0.2799    0.2723       310
-          weighted avg     0.4176    0.3903    0.3916       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 48:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2000    0.2000    0.2000        15
-            entailment     0.5926    0.2963    0.3951       108
-    factive_antonymity     0.1333    0.2667    0.1778        15
-factive_embedding_verb     0.0588    0.1333    0.0816        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.1905    0.2667    0.2222        15
-               neutral     0.6277    0.8676    0.7284        68
-               numeric     0.5625    0.6000    0.5806        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1667    0.2143    0.1875        14
-        worldknowledge     0.1429    0.1333    0.1379        15
-
-              accuracy                         0.3871       310
-             macro avg     0.2795    0.2829    0.2647       310
-          weighted avg     0.4333    0.3871    0.3833       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 49:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2667    0.2051        15
-            entailment     0.5072    0.3241    0.3955       108
-    factive_antonymity     0.1333    0.1333    0.1333        15
-factive_embedding_verb     0.0769    0.2000    0.1111        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2381    0.3333    0.2778        15
-               neutral     0.5977    0.7647    0.6710        68
-               numeric     0.6429    0.6000    0.6207        15
-             structure     0.2308    0.2000    0.2143        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.3677       310
-             macro avg     0.2488    0.2630    0.2476       310
-          weighted avg     0.3863    0.3677    0.3649       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 50:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2059    0.4667    0.2857        15
-            entailment     0.5210    0.5741    0.5463       108
-    factive_antonymity     0.2000    0.1333    0.1600        15
-factive_embedding_verb     0.5000    0.0667    0.1176        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.4000    0.4000    0.4000        15
-               neutral     0.7458    0.6471    0.6929        68
-               numeric     0.5000    0.5333    0.5161        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.1667    0.2857    0.2105        14
-        worldknowledge     0.1429    0.0667    0.0909        15
-
-              accuracy                         0.4484       310
-             macro avg     0.3479    0.3127    0.3049       310
-          weighted avg     0.4684    0.4484    0.4439       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 51:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2105    0.2667    0.2353        15
-            entailment     0.5392    0.5093    0.5238       108
-    factive_antonymity     0.2222    0.1333    0.1667        15
-factive_embedding_verb     0.1111    0.1333    0.1212        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2500    0.4667    0.3256        15
-               neutral     0.6438    0.6912    0.6667        68
-               numeric     0.5333    0.5333    0.5333        15
-             structure     0.4000    0.2667    0.3200        15
-              temporal     0.1667    0.2143    0.1875        14
-        worldknowledge     0.0909    0.0667    0.0769        15
-
-              accuracy                         0.4290       310
-             macro avg     0.2880    0.2983    0.2870       310
-          weighted avg     0.4246    0.4290    0.4233       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 52:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.1333    0.1481        15
-            entailment     0.5393    0.4444    0.4873       108
-    factive_antonymity     0.1765    0.2000    0.1875        15
-factive_embedding_verb     0.1667    0.0667    0.0952        15
-               lexical     0.0667    0.1333    0.0889        15
-              negation     0.3000    0.6000    0.4000        15
-               neutral     0.6912    0.6912    0.6912        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.5000    0.2000    0.2857        15
-              temporal     0.1333    0.1429    0.1379        14
-        worldknowledge     0.1923    0.3333    0.2439        15
-
-              accuracy                         0.4129       310
-             macro avg     0.3162    0.3041    0.2934       310
-          weighted avg     0.4478    0.4129    0.4201       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 53:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.1333    0.1739        15
-            entailment     0.5545    0.5185    0.5359       108
-    factive_antonymity     0.1667    0.1333    0.1481        15
-factive_embedding_verb     0.0625    0.0667    0.0645        15
-               lexical     0.1154    0.2000    0.1463        15
-              negation     0.2222    0.1333    0.1667        15
-               neutral     0.6122    0.8824    0.7229        68
-               numeric     0.6667    0.4000    0.5000        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.2000    0.2143    0.2069        14
-        worldknowledge     0.1667    0.1333    0.1481        15
-
-              accuracy                         0.4484       310
-             macro avg     0.3197    0.2680    0.2749       310
-          weighted avg     0.4405    0.4484    0.4300       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 54:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1538    0.4000    0.2222        15
-            entailment     0.4941    0.3889    0.4352       108
-    factive_antonymity     0.2000    0.1333    0.1600        15
-factive_embedding_verb     0.1333    0.1333    0.1333        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3000    0.6000    0.4000        15
-               neutral     0.7049    0.6324    0.6667        68
-               numeric     0.5556    0.6667    0.6061        15
-             structure     0.2500    0.2667    0.2581        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.3839       310
-             macro avg     0.2639    0.2993    0.2699       310
-          weighted avg     0.4089    0.3839    0.3879       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 55:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.4167    0.3333    0.3704        15
-            entailment     0.5565    0.5926    0.5740       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.1667    0.0667    0.0952        15
-               lexical     0.0526    0.0667    0.0588        15
-              negation     0.2500    0.0667    0.1053        15
-               neutral     0.6304    0.8529    0.7250        68
-               numeric     0.4762    0.6667    0.5556        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1579    0.2143    0.1818        14
-        worldknowledge     0.1111    0.0667    0.0833        15
-
-              accuracy                         0.4742       310
-             macro avg     0.3039    0.2842    0.2760       310
-          weighted avg     0.4360    0.4742    0.4425       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 56:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.4000    0.1333    0.2000        15
-            entailment     0.5977    0.4815    0.5333       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.1667    0.0667    0.0952        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2041    0.6667    0.3125        15
-               neutral     0.6623    0.7500    0.7034        68
-               numeric     0.6154    0.5333    0.5714        15
-             structure     0.4286    0.2000    0.2727        15
-              temporal     0.0909    0.1429    0.1111        14
-        worldknowledge     0.1364    0.2000    0.1622        15
-
-              accuracy                         0.4323       310
-             macro avg     0.3115    0.3007    0.2810       310
-          weighted avg     0.4581    0.4323    0.4295       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 57:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1707    0.4667    0.2500        15
-            entailment     0.4844    0.5741    0.5254       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.0667    0.0667    0.0667        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.4286    0.2000    0.2727        15
-               neutral     0.7500    0.6176    0.6774        68
-               numeric     0.4706    0.5333    0.5000        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.1538    0.1429    0.1481        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4226       310
-             macro avg     0.2813    0.2728    0.2639       310
-          weighted avg     0.4228    0.4226    0.4134       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 58:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1429    0.0667    0.0909        15
-            entailment     0.4961    0.5926    0.5401       108
-    factive_antonymity     0.5000    0.0667    0.1176        15
-factive_embedding_verb     0.1000    0.0667    0.0800        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3043    0.4667    0.3684        15
-               neutral     0.6292    0.8235    0.7134        68
-               numeric     0.6364    0.4667    0.5385        15
-             structure     0.4000    0.2667    0.3200        15
-              temporal     0.0833    0.0714    0.0769        14
-        worldknowledge     0.2000    0.1333    0.1600        15
-
-              accuracy                         0.4645       310
-             macro avg     0.3175    0.2746    0.2733       310
-          weighted avg     0.4251    0.4645    0.4292       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 59:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.1333    0.1739        15
-            entailment     0.4896    0.4352    0.4608       108
-    factive_antonymity     0.1111    0.0667    0.0833        15
-factive_embedding_verb     0.0833    0.0667    0.0741        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3077    0.2667    0.2857        15
-               neutral     0.4776    0.9412    0.6337        68
-               numeric     0.6250    0.3333    0.4348        15
-             structure     0.3333    0.2000    0.2500        15
-              temporal     0.2000    0.0714    0.1053        14
-        worldknowledge     0.2222    0.1333    0.1667        15
-
-              accuracy                         0.4194       310
-             macro avg     0.2818    0.2407    0.2426       310
-          weighted avg     0.3779    0.4194    0.3753       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 60:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1250    0.1333    0.1290        15
-            entailment     0.4902    0.4630    0.4762       108
-    factive_antonymity     0.2000    0.0667    0.1000        15
-factive_embedding_verb     0.0667    0.0667    0.0667        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2647    0.6000    0.3673        15
-               neutral     0.6500    0.7647    0.7027        68
-               numeric     0.6667    0.4000    0.5000        15
-             structure     0.3000    0.4000    0.3429        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4129       310
-             macro avg     0.2613    0.2696    0.2520       310
-          weighted avg     0.3969    0.4129    0.3968       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 61:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2222    0.1333    0.1667        15
-            entailment     0.5048    0.4907    0.4977       108
-    factive_antonymity     0.0909    0.1333    0.1081        15
-factive_embedding_verb     0.0625    0.1333    0.0851        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2500    0.3333    0.2857        15
-               neutral     0.6022    0.8235    0.6957        68
-               numeric     0.7000    0.4667    0.5600        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4194       310
-             macro avg     0.2767    0.2472    0.2451       310
-          weighted avg     0.4013    0.4194    0.3984       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 62:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1818    0.4000    0.2500        15
-            entailment     0.5081    0.5833    0.5431       108
-    factive_antonymity     0.1429    0.0667    0.0909        15
-factive_embedding_verb     0.0909    0.0667    0.0769        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3889    0.4667    0.4242        15
-               neutral     0.6812    0.6912    0.6861        68
-               numeric     0.4737    0.6000    0.5294        15
-             structure     0.3077    0.2667    0.2857        15
-              temporal     0.0909    0.0714    0.0800        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4484       310
-             macro avg     0.2605    0.2921    0.2697       310
-          weighted avg     0.4073    0.4484    0.4235       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 63:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.1333    0.1905        15
-            entailment     0.5574    0.3148    0.4024       108
-    factive_antonymity     0.1176    0.1333    0.1250        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.0652    0.2000    0.0984        15
-              negation     0.2500    0.3333    0.2857        15
-               neutral     0.6386    0.7794    0.7020        68
-               numeric     0.7000    0.4667    0.5600        15
-             structure     0.3333    0.1333    0.1905        15
-              temporal     0.2500    0.2857    0.2667        14
-        worldknowledge     0.1622    0.4000    0.2308        15
-
-              accuracy                         0.3839       310
-             macro avg     0.3211    0.2951    0.2853       310
-          weighted avg     0.4465    0.3839    0.3917       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 64:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2667    0.2051        15
-            entailment     0.5464    0.4907    0.5171       108
-    factive_antonymity     0.1364    0.2000    0.1622        15
-factive_embedding_verb     0.0833    0.0667    0.0741        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3000    0.6000    0.4000        15
-               neutral     0.6970    0.6765    0.6866        68
-               numeric     0.6429    0.6000    0.6207        15
-             structure     0.3750    0.2000    0.2609        15
-              temporal     0.1000    0.0714    0.0833        14
-        worldknowledge     0.1667    0.2000    0.1818        15
-
-              accuracy                         0.4258       310
-             macro avg     0.2922    0.3065    0.2902       310
-          weighted avg     0.4383    0.4258    0.4267       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 65:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1739    0.2667    0.2105        15
-            entailment     0.5647    0.4444    0.4974       108
-    factive_antonymity     0.1200    0.2000    0.1500        15
-factive_embedding_verb     0.0500    0.0667    0.0571        15
-               lexical     0.0909    0.0667    0.0769        15
-              negation     0.2593    0.4667    0.3333        15
-               neutral     0.6800    0.7500    0.7133        68
-               numeric     0.5333    0.5333    0.5333        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.1176    0.1333    0.1250        15
-
-              accuracy                         0.4129       310
-             macro avg     0.2848    0.2848    0.2720       310
-          weighted avg     0.4368    0.4129    0.4156       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 66:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1429    0.2667    0.1860        15
-            entailment     0.5426    0.4722    0.5050       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.0588    0.0667    0.0625        15
-               lexical     0.0909    0.0667    0.0769        15
-              negation     0.2308    0.4000    0.2927        15
-               neutral     0.6923    0.6618    0.6767        68
-               numeric     0.5000    0.6667    0.5714        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.0909    0.0714    0.0800        14
-        worldknowledge     0.0769    0.0667    0.0714        15
-
-              accuracy                         0.4065       310
-             macro avg     0.2723    0.2853    0.2714       310
-          weighted avg     0.4258    0.4065    0.4114       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 67:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1111    0.2000    0.1429        15
-            entailment     0.5125    0.3796    0.4362       108
-    factive_antonymity     0.1000    0.1333    0.1143        15
-factive_embedding_verb     0.0909    0.2000    0.1250        15
-               lexical     0.0667    0.0667    0.0667        15
-              negation     0.2308    0.6000    0.3333        15
-               neutral     0.6897    0.5882    0.6349        68
-               numeric     0.5333    0.5333    0.5333        15
-             structure     0.3750    0.2000    0.2609        15
-              temporal     0.0000    0.0000    0.0000        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.3548       310
-             macro avg     0.2464    0.2637    0.2407       310
-          weighted avg     0.4028    0.3548    0.3675       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 68:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1935    0.4000    0.2609        15
-            entailment     0.5644    0.5278    0.5455       108
-    factive_antonymity     0.2500    0.1333    0.1739        15
-factive_embedding_verb     0.0833    0.1333    0.1026        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3158    0.4000    0.3529        15
-               neutral     0.6667    0.7353    0.6993        68
-               numeric     0.5714    0.5333    0.5517        15
-             structure     0.4286    0.2000    0.2727        15
-              temporal     0.2000    0.2143    0.2069        14
-        worldknowledge     0.1111    0.0667    0.0833        15
-
-              accuracy                         0.4452       310
-             macro avg     0.3077    0.3040    0.2954       310
-          weighted avg     0.4464    0.4452    0.4398       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 69:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.3333    0.2857        15
-            entailment     0.4851    0.6019    0.5372       108
-    factive_antonymity     0.2857    0.1333    0.1818        15
-factive_embedding_verb     0.0476    0.0667    0.0556        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3846    0.3333    0.3571        15
-               neutral     0.6429    0.6618    0.6522        68
-               numeric     0.6000    0.6000    0.6000        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.1000    0.0714    0.0833        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4419       310
-             macro avg     0.2946    0.2789    0.2806       310
-          weighted avg     0.4119    0.4419    0.4217       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 70:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2000    0.1818        15
-            entailment     0.5607    0.5556    0.5581       108
-    factive_antonymity     0.1250    0.1333    0.1290        15
-factive_embedding_verb     0.0769    0.0667    0.0714        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3077    0.2667    0.2857        15
-               neutral     0.6173    0.7353    0.6711        68
-               numeric     0.6000    0.4000    0.4800        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.0667    0.0714    0.0690        14
-        worldknowledge     0.1538    0.1333    0.1429        15
-
-              accuracy                         0.4290       310
-             macro avg     0.2836    0.2572    0.2657       310
-          weighted avg     0.4245    0.4290    0.4234       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 71:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.2667    0.2581        15
-            entailment     0.5197    0.6111    0.5617       108
-    factive_antonymity     0.1333    0.1333    0.1333        15
-factive_embedding_verb     0.2500    0.0667    0.1053        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2143    0.2000    0.2069        15
-               neutral     0.6528    0.6912    0.6714        68
-               numeric     0.6154    0.5333    0.5714        15
-             structure     0.3333    0.0667    0.1111        15
-              temporal     0.0667    0.0714    0.0690        14
-        worldknowledge     0.0833    0.0667    0.0741        15
-
-              accuracy                         0.4323       310
-             macro avg     0.2835    0.2461    0.2511       310
-          weighted avg     0.4182    0.4323    0.4167       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 72:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2000    0.1333    0.1600        15
-            entailment     0.4595    0.6296    0.5312       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.0667    0.0667    0.0667        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2414    0.4667    0.3182        15
-               neutral     0.6667    0.7059    0.6857        68
-               numeric     0.6667    0.4000    0.5000        15
-             structure     0.3333    0.1333    0.1905        15
-              temporal     0.1250    0.0714    0.0909        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4387       310
-             macro avg     0.2622    0.2431    0.2391       310
-          weighted avg     0.3910    0.4387    0.4036       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 73:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1905    0.2667    0.2222        15
-            entailment     0.4891    0.6204    0.5469       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.0714    0.0667    0.0690        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2273    0.3333    0.2703        15
-               neutral     0.7500    0.6618    0.7031        68
-               numeric     0.5000    0.4667    0.4828        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.0667    0.0714    0.0690        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4290       310
-             macro avg     0.2564    0.2443    0.2409       310
-          weighted avg     0.4112    0.4290    0.4123       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 74:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2143    0.2000    0.2069        15
-            entailment     0.5474    0.4815    0.5123       108
-    factive_antonymity     0.1176    0.1333    0.1250        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.1053    0.1333    0.1176        15
-              negation     0.1739    0.2667    0.2105        15
-               neutral     0.6456    0.7500    0.6939        68
-               numeric     0.6000    0.6000    0.6000        15
-             structure     0.5000    0.2667    0.3478        15
-              temporal     0.0714    0.0714    0.0714        14
-        worldknowledge     0.1667    0.2000    0.1818        15
-
-              accuracy                         0.4258       310
-             macro avg     0.2970    0.2881    0.2868       310
-          weighted avg     0.4324    0.4258    0.4247       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 75:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.0667    0.1111        15
-            entailment     0.5854    0.4444    0.5053       108
-    factive_antonymity     0.1613    0.3333    0.2174        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.1176    0.1333    0.1250        15
-              negation     0.1000    0.0667    0.0800        15
-               neutral     0.5446    0.8971    0.6778        68
-               numeric     0.6154    0.5333    0.5714        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.2174    0.3333    0.2632        15
-
-              accuracy                         0.4355       310
-             macro avg     0.3130    0.2800    0.2676       310
-          weighted avg     0.4349    0.4355    0.4096       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 76:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1875    0.2000    0.1935        15
-            entailment     0.5083    0.5648    0.5351       108
-    factive_antonymity     0.0952    0.2667    0.1404        15
-factive_embedding_verb     0.0588    0.0667    0.0625        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2083    0.3333    0.2564        15
-               neutral     0.7736    0.6029    0.6777        68
-               numeric     0.5714    0.5333    0.5517        15
-             structure     0.3750    0.2000    0.2609        15
-              temporal     0.3333    0.0714    0.1176        14
-        worldknowledge     0.1429    0.0667    0.0909        15
-
-              accuracy                         0.4129       310
-             macro avg     0.2959    0.2642    0.2624       310
-          weighted avg     0.4412    0.4129    0.4157       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 77:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1765    0.2000    0.1875        15
-            entailment     0.4545    0.6481    0.5344       108
-    factive_antonymity     0.1333    0.1333    0.1333        15
-factive_embedding_verb     0.0625    0.0667    0.0645        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2500    0.4000    0.3077        15
-               neutral     0.7818    0.6324    0.6992        68
-               numeric     0.6667    0.5333    0.5926        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4387       310
-             macro avg     0.2880    0.2562    0.2568       310
-          weighted avg     0.4229    0.4387    0.4162       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 78:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.1333    0.1481        15
-            entailment     0.5890    0.3981    0.4751       108
-    factive_antonymity     0.3333    0.1333    0.1905        15
-factive_embedding_verb     0.0909    0.1333    0.1081        15
-               lexical     0.1429    0.2667    0.1860        15
-              negation     0.1724    0.3333    0.2273        15
-               neutral     0.6292    0.8235    0.7134        68
-               numeric     0.7000    0.4667    0.5600        15
-             structure     0.3333    0.2667    0.2963        15
-              temporal     0.3333    0.0714    0.1176        14
-        worldknowledge     0.1538    0.2667    0.1951        15
-
-              accuracy                         0.4194       310
-             macro avg     0.3314    0.2994    0.2925       310
-          weighted avg     0.4596    0.4194    0.4198       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 79:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1600    0.2667    0.2000        15
-            entailment     0.4951    0.4722    0.4834       108
-    factive_antonymity     0.1429    0.1333    0.1379        15
-factive_embedding_verb     0.1111    0.2667    0.1569        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2308    0.4000    0.2927        15
-               neutral     0.6970    0.6765    0.6866        68
-               numeric     0.6667    0.5333    0.5926        15
-             structure     0.2941    0.3333    0.3125        15
-              temporal     0.5000    0.0714    0.1250        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4097       310
-             macro avg     0.2998    0.2867    0.2716       310
-          weighted avg     0.4257    0.4097    0.4066       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 80:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3000    0.2000    0.2400        15
-            entailment     0.5526    0.5833    0.5676       108
-    factive_antonymity     0.2500    0.1333    0.1739        15
-factive_embedding_verb     0.1000    0.0667    0.0800        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2778    0.3333    0.3030        15
-               neutral     0.6067    0.7941    0.6879        68
-               numeric     0.4667    0.4667    0.4667        15
-             structure     0.5714    0.2667    0.3636        15
-              temporal     0.1579    0.2143    0.1818        14
-        worldknowledge     0.1250    0.0667    0.0870        15
-
-              accuracy                         0.4613       310
-             macro avg     0.3098    0.2841    0.2865       310
-          weighted avg     0.4339    0.4613    0.4398       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 81:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1429    0.1333    0.1379        15
-            entailment     0.5354    0.4907    0.5121       108
-    factive_antonymity     0.1579    0.2000    0.1765        15
-factive_embedding_verb     0.1111    0.0667    0.0833        15
-               lexical     0.0870    0.1333    0.1053        15
-              negation     0.2692    0.4667    0.3415        15
-               neutral     0.6623    0.7500    0.7034        68
-               numeric     0.5333    0.5333    0.5333        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1667    0.0714    0.1000        14
-        worldknowledge     0.1765    0.2000    0.1875        15
-
-              accuracy                         0.4290       310
-             macro avg     0.2947    0.2890    0.2801       310
-          weighted avg     0.4302    0.4290    0.4226       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 82:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1765    0.2000    0.1875        15
-            entailment     0.5644    0.5278    0.5455       108
-    factive_antonymity     0.1429    0.1333    0.1379        15
-factive_embedding_verb     0.0833    0.0667    0.0741        15
-               lexical     0.1111    0.1333    0.1212        15
-              negation     0.2273    0.3333    0.2703        15
-               neutral     0.6494    0.7353    0.6897        68
-               numeric     0.5294    0.6000    0.5625        15
-             structure     0.5000    0.2000    0.2857        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.1176    0.1333    0.1250        15
-
-              accuracy                         0.4355       310
-             macro avg     0.2921    0.2850    0.2806       310
-          weighted avg     0.4354    0.4355    0.4306       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 83:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2500    0.0667    0.1053        15
-            entailment     0.5385    0.5833    0.5600       108
-    factive_antonymity     0.2727    0.2000    0.2308        15
-factive_embedding_verb     0.1000    0.0667    0.0800        15
-               lexical     0.1250    0.0667    0.0870        15
-              negation     0.2963    0.5333    0.3810        15
-               neutral     0.5918    0.8529    0.6988        68
-               numeric     0.6667    0.4000    0.5000        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.1538    0.1333    0.1429        15
-
-              accuracy                         0.4710       310
-             macro avg     0.3278    0.2825    0.2803       310
-          weighted avg     0.4368    0.4710    0.4364       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 84:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2000    0.1818        15
-            entailment     0.5076    0.6204    0.5583       108
-    factive_antonymity     0.1818    0.1333    0.1538        15
-factive_embedding_verb     0.1111    0.1333    0.1212        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3333    0.3333    0.3333        15
-               neutral     0.6538    0.7500    0.6986        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.1000    0.0714    0.0833        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4484       310
-             macro avg     0.2818    0.2523    0.2548       310
-          weighted avg     0.4137    0.4484    0.4223       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 85:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1875    0.2000    0.1935        15
-            entailment     0.5930    0.4722    0.5258       108
-    factive_antonymity     0.1818    0.1333    0.1538        15
-factive_embedding_verb     0.0833    0.1333    0.1026        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2727    0.4000    0.3243        15
-               neutral     0.5784    0.8676    0.6941        68
-               numeric     0.7143    0.3333    0.4545        15
-             structure     0.3846    0.3333    0.3571        15
-              temporal     0.0769    0.0714    0.0741        14
-        worldknowledge     0.0714    0.0667    0.0690        15
-
-              accuracy                         0.4355       310
-             macro avg     0.2858    0.2738    0.2681       310
-          weighted avg     0.4287    0.4355    0.4189       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 86:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2105    0.2667    0.2353        15
-            entailment     0.5115    0.6204    0.5607       108
-    factive_antonymity     0.1818    0.1333    0.1538        15
-factive_embedding_verb     0.5000    0.0667    0.1176        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3000    0.2000    0.2400        15
-               neutral     0.6923    0.6618    0.6767        68
-               numeric     0.5263    0.6667    0.5882        15
-             structure     0.6000    0.2000    0.3000        15
-              temporal     0.2000    0.2143    0.2069        14
-        worldknowledge     0.2105    0.2667    0.2353        15
-
-              accuracy                         0.4581       310
-             macro avg     0.3575    0.2997    0.3013       310
-          weighted avg     0.4615    0.4581    0.4436       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 87:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1250    0.1333    0.1290        15
-            entailment     0.5588    0.5278    0.5429       108
-    factive_antonymity     0.1333    0.1333    0.1333        15
-factive_embedding_verb     0.1000    0.0667    0.0800        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2778    0.6667    0.3922        15
-               neutral     0.6420    0.7647    0.6980        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.4286    0.2000    0.2727        15
-              temporal     0.0769    0.0714    0.0741        14
-        worldknowledge     0.1429    0.1333    0.1379        15
-
-              accuracy                         0.4387       310
-             macro avg     0.2755    0.2816    0.2656       310
-          weighted avg     0.4238    0.4387    0.4233       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 88:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1429    0.1333    0.1379        15
-            entailment     0.5089    0.5278    0.5182       108
-    factive_antonymity     0.2222    0.1333    0.1667        15
-factive_embedding_verb     0.1000    0.1333    0.1143        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2188    0.4667    0.2979        15
-               neutral     0.6667    0.7059    0.6857        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.3846    0.3333    0.3571        15
-              temporal     0.0833    0.0714    0.0769        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4194       310
-             macro avg     0.2612    0.2641    0.2560       310
-          weighted avg     0.4054    0.4194    0.4087       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 89:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.2000    0.2500        15
-            entailment     0.5285    0.6019    0.5628       108
-    factive_antonymity     0.3333    0.0667    0.1111        15
-factive_embedding_verb     0.2000    0.0667    0.1000        15
-               lexical     0.0909    0.0667    0.0769        15
-              negation     0.2500    0.2667    0.2581        15
-               neutral     0.5758    0.8382    0.6826        68
-               numeric     0.5455    0.4000    0.4615        15
-             structure     0.5714    0.2667    0.3636        15
-              temporal     0.0909    0.0714    0.0800        14
-        worldknowledge     0.1333    0.1333    0.1333        15
-
-              accuracy                         0.4677       310
-             macro avg     0.3321    0.2707    0.2800       310
-          weighted avg     0.4334    0.4677    0.4343       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 90:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.2667    0.2963        15
-            entailment     0.5000    0.7593    0.6029       108
-    factive_antonymity     0.1111    0.0667    0.0833        15
-factive_embedding_verb     0.1667    0.0667    0.0952        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.3333    0.3333    0.3333        15
-               neutral     0.6711    0.7500    0.7083        68
-               numeric     0.7143    0.3333    0.4545        15
-             structure     0.3333    0.0667    0.1111        15
-              temporal     0.1250    0.0714    0.0909        14
-        worldknowledge     0.2857    0.1333    0.1818        15
-
-              accuracy                         0.4935       310
-             macro avg     0.3249    0.2589    0.2689       310
-          weighted avg     0.4373    0.4935    0.4448       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 91:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2000    0.1818        15
-            entailment     0.5357    0.5556    0.5455       108
-    factive_antonymity     0.1000    0.1333    0.1143        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.1579    0.2000    0.1765        15
-               neutral     0.7000    0.7206    0.7101        68
-               numeric     0.6429    0.6000    0.6207        15
-             structure     0.3333    0.0667    0.1111        15
-              temporal     0.1429    0.1429    0.1429        14
-        worldknowledge     0.1500    0.2000    0.1714        15
-
-              accuracy                         0.4290       310
-             macro avg     0.2777    0.2623    0.2601       310
-          weighted avg     0.4277    0.4290    0.4230       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 92:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.2000    0.2500        15
-            entailment     0.5421    0.5370    0.5395       108
-    factive_antonymity     0.1667    0.0667    0.0952        15
-factive_embedding_verb     0.0769    0.0667    0.0714        15
-               lexical     0.0714    0.0667    0.0690        15
-              negation     0.1905    0.2667    0.2222        15
-               neutral     0.6170    0.8529    0.7160        68
-               numeric     0.6364    0.4667    0.5385        15
-             structure     0.4000    0.2667    0.3200        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.1250    0.1333    0.1290        15
-
-              accuracy                         0.4516       310
-             macro avg     0.2973    0.2722    0.2762       310
-          weighted avg     0.4260    0.4516    0.4310       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 93:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1818    0.2667    0.2162        15
-            entailment     0.4653    0.6204    0.5317       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.1111    0.0667    0.0833        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2667    0.2667    0.2667        15
-               neutral     0.7143    0.6618    0.6870        68
-               numeric     0.5000    0.6000    0.5455        15
-             structure     0.4444    0.2667    0.3333        15
-              temporal     0.0769    0.0714    0.0741        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4387       310
-             macro avg     0.2623    0.2624    0.2568       310
-          weighted avg     0.4011    0.4387    0.4134       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 94:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.3333    0.2000    0.2500        15
-            entailment     0.5000    0.6759    0.5748       108
-    factive_antonymity     0.0588    0.0667    0.0625        15
-factive_embedding_verb     0.2000    0.0667    0.1000        15
-               lexical     0.1000    0.0667    0.0800        15
-              negation     0.2857    0.4000    0.3333        15
-               neutral     0.7097    0.6471    0.6769        68
-               numeric     0.7000    0.4667    0.5600        15
-             structure     0.6000    0.2000    0.3000        15
-              temporal     0.1875    0.2143    0.2000        14
-        worldknowledge     0.2222    0.1333    0.1667        15
-
-              accuracy                         0.4645       310
-             macro avg     0.3543    0.2852    0.3004       310
-          weighted avg     0.4593    0.4645    0.4474       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 95:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.0667    0.0952        15
-            entailment     0.5044    0.5278    0.5158       108
-    factive_antonymity     0.0667    0.0667    0.0667        15
-factive_embedding_verb     0.0714    0.0667    0.0690        15
-               lexical     0.1000    0.0667    0.0800        15
-              negation     0.2105    0.2667    0.2353        15
-               neutral     0.5644    0.8382    0.6746        68
-               numeric     0.6154    0.5333    0.5714        15
-             structure     0.3750    0.2000    0.2609        15
-              temporal     0.2000    0.0714    0.1053        14
-        worldknowledge     0.1667    0.0667    0.0952        15
-
-              accuracy                         0.4355       310
-             macro avg     0.2765    0.2519    0.2518       310
-          weighted avg     0.3943    0.4355    0.4037       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 96:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2222    0.1333    0.1667        15
-            entailment     0.5795    0.4722    0.5204       108
-    factive_antonymity     0.1333    0.2667    0.1778        15
-factive_embedding_verb     0.0690    0.1333    0.0909        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.1818    0.2667    0.2162        15
-               neutral     0.6154    0.8235    0.7044        68
-               numeric     0.6429    0.6000    0.6207        15
-             structure     0.5000    0.2000    0.2857        15
-              temporal     0.1429    0.0714    0.0952        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4258       310
-             macro avg     0.2806    0.2697    0.2616       310
-          weighted avg     0.4280    0.4258    0.4155       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 97:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2667    0.2051        15
-            entailment     0.4965    0.6574    0.5657       108
-    factive_antonymity     0.0667    0.0667    0.0667        15
-factive_embedding_verb     0.1538    0.1333    0.1429        15
-               lexical     0.0833    0.0667    0.0741        15
-              negation     0.3000    0.2000    0.2400        15
-               neutral     0.7077    0.6765    0.6917        68
-               numeric     0.5833    0.4667    0.5185        15
-             structure     0.5000    0.1333    0.2105        15
-              temporal     0.2000    0.0714    0.1053        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4452       310
-             macro avg     0.2962    0.2490    0.2564       310
-          weighted avg     0.4269    0.4452    0.4241       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 98:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.2727    0.2000    0.2308        15
-            entailment     0.5167    0.5741    0.5439       108
-    factive_antonymity     0.1250    0.0667    0.0870        15
-factive_embedding_verb     0.0909    0.1333    0.1081        15
-               lexical     0.0000    0.0000    0.0000        15
-              negation     0.2353    0.2667    0.2500        15
-               neutral     0.6292    0.8235    0.7134        68
-               numeric     0.6000    0.4000    0.4800        15
-             structure     0.4000    0.1333    0.2000        15
-              temporal     0.1111    0.0714    0.0870        14
-        worldknowledge     0.1538    0.1333    0.1429        15
-
-              accuracy                         0.4484       310
-             macro avg     0.2850    0.2548    0.2584       310
-          weighted avg     0.4139    0.4484    0.4224       310
-
------End of Report-----
-
-Report of Search 1 for Epoch 99:
-
-                        precision    recall  f1-score   support
-
-            antonymity     0.1667    0.2000    0.1818        15
-            entailment     0.5088    0.5370    0.5225       108
-    factive_antonymity     0.1304    0.2000    0.1579        15
-factive_embedding_verb     0.1250    0.0667    0.0870        15
-               lexical     0.1053    0.1333    0.1176        15
-              negation     0.2400    0.4000    0.3000        15
-               neutral     0.7167    0.6324    0.6719        68
-               numeric     0.5385    0.4667    0.5000        15
-             structure     0.5000    0.2000    0.2857        15
-              temporal     0.1765    0.2143    0.1935        14
-        worldknowledge     0.0000    0.0000    0.0000        15
-
-              accuracy                         0.4161       310
-             macro avg     0.2916    0.2773    0.2744       310
-          weighted avg     0.4298    0.4161    0.4170       310
+            antonymity     0.5000    0.2667    0.3478        15
+            entailment     0.9608    0.9074    0.9333       108
+    factive_antonymity     0.3333    0.7333    0.4583        15
+factive_embedding_verb     0.7778    0.4667    0.5833        15
+               lexical     0.5556    0.3333    0.4167        15
+              negation     0.7000    0.9333    0.8000        15
+               neutral     0.9306    0.9853    0.9571        68
+               numeric     0.9375    1.0000    0.9677        15
+             structure     1.0000    0.8667    0.9286        15
+              temporal     0.6250    0.7143    0.6667        14
+        worldknowledge     0.5833    0.4667    0.5185        15
+
+              accuracy                         0.8097       310
+             macro avg     0.7185    0.6976    0.6889       310
+          weighted avg     0.8278    0.8097    0.8082       310
 
 -----End of Report-----
 
