@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "/home/ssever/anaconda3/envs/cont/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "python.autoActivateEnvironment": true,
-    "python.condaPath": "/home/ssever/anaconda3/envs/cont",
-    "python.languageServer": "Pylance"
-}
