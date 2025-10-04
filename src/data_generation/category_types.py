@@ -13,7 +13,7 @@ neutral = CategoryType(name='neutral',
         instances=[Category(premise='The cat is sleeping on the sofa',
                                  hypothesis='It is raining outside')])
 
-antonymity = CategoryType(name='antonymity',
+antonym = CategoryType(name='antonym',
                                description='A contradiction based on antonymity means that a contradiction arises\
  between two statements (Premise and Hypothesis) because the hypothesis contains an antonymous word compared to the premise.',
         instances=[Category(premise='Capital punishment is a catalyst for more crime',
@@ -39,7 +39,7 @@ factive_embedded_verb = CategoryType(name='factive_embedding_verb',
         instances=[Category(premise='Sudan accepted U.N. troops in Darfur',
                                 hypothesis='Sudan refused to accept U.N. troops'),])
 
-factive_antonym = CategoryType(name='factive_antonymity',
+factive_antonym = CategoryType(name='factive_antonym',
                                 description='Factive contradiction based on the antonymity of a verb means that a contradiction arises\
  between two statements (Premise and Hypothesis) because the verb phrase in the hypothesis has an opposite or contradictory meaning\
  to the verb phrase in the premise',
@@ -77,12 +77,3 @@ wk = CategoryType(name='worldknowledge',
  1. the facts and knowledge from the hypothesis contradict the world knowledge in the premise',
         instances=[Category(premise='Al-zarqawi was Palestinian',
                                  hypothesis='Al-zarqawi was Jordanian')])
-
-
-"""structure = CategoryType(name='structure',
-                            description=' A structure contradiction arises from the mismatch in the sentence structure of the premise and hypothesis.\
- The mismatch in the sentence structure has the following characteristics:\
- 1. the created hypothesis has the same verb phrase as the premise,\
- 2. there are new entities which function as new objects of the same verb in the hypothesis, which creates the contradictory meaning to the meaning of the premise with respect to the premise',
-        instances=[Category(premise='The children are smiling and waving at the camera',
-                                 hypothesis='The children are smiling and waving to each other')])"""
