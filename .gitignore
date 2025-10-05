@@ -1,2 +1,8 @@
 .vscode/
 data/
+src/data_generation/__pycache__
+src/data_generation/extract_sentences.ipynb
+src/fine_tuning/old
+src/vectorization/old
+.env
+results/classification evaluation
