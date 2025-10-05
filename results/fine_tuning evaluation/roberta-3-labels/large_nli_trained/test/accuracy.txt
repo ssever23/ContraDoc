@@ -1,1 +1,0 @@
-Accuracy on test set: 97.68% with loss: 5.603377857070882
