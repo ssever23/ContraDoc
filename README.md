@@ -1,30 +1,45 @@
-# contradictory-information
+# Ensuring Consistency in Knowledge Bases with Generative AI
 
-## Necessary packages:
+## 📘 Overview
+This repository contains a **Generative AI pipeline for detecting contradictions** in unstructured company text data.  
+It integrates **Large Language Models (LLMs)**, **vector databases**, and **semantic similarity search** to automatically identify conflicting or inconsistent information within document collections.
 
-Use pip install requirements.txt to install necessary packages
+The system combines fine-tuned transformer models with embedding-based retrieval and large-model reasoning to enhance data quality and consistency in organizational information systems.
 
-### This project was realized on WSL2 (Ubuntu)
+---
 
-## Code Structure:
+## 🧩 Objectives
+- Detect and classify contradictions in large text corpora.  
+- Fine-tune a laguage model on domain-specific data.  
+- Use a vector database for scalable semantic similarity matching.  
+- Apply an LLM to validate and correct uncertain classifications.
 
-The NLI dataset for contradiction detection can be created under src/data_generation/pair_generation. The existing dataset is under data/csv_files/nli_data_set.csv
+---
 
+## ⚙️ System Architecture
+The **Contradiction Detection (CD) Pipeline** includes the following core components:
 
-The roberta models are fine-tuned under src/fine_tuning. The already fine-tuned models can be found under https://drive.google.com/drive/folders/1qz2VEEVveU1tKGR_VzYJCDys_-HF-8N4?usp=drive_link
+1. **Data Preparation** – Generates a domain-specific contradiction dataset using an LLM.  
+2. **Fine-Tuned Classifier** – A RoBERTa model trained on multi-label contradiction types (antonymy, negation, numeric, lexical, world knowledge, etc.).  
+3. **Vector Database Integration** – Embeds documents using an embedding model and stores them in **ChromaDB** for similarity-based retrieval.  
+4. **Similarity Search** – Finds related sentence pairs across documents that potentially refer to the same entities or timeframes, a prerequisite for contradictions.  
+5. **LLM Refiner** – A large language model (e.g., Llama 3) re-evaluates or refines uncertain predictions for higher-level semantic validation.
 
+---
 
-The vector stores are created under src/vectorization/vector_db. vector_store contains the vectorized files from data/PDFs. The database with and without contradictory data can be found under https://drive.google.com/drive/folders/1znRj73MKkpHycmIHg7MTiCoiT6zSr9Pi?usp=drive_link
+## 🧠 Methodology
+The pipeline combines classic contradiction detection techniques with modern generative AI components:
 
+- **Sentence Embedding & Search:** Vector representations enable scalable semantic pairing of potentially contradictory statements.  
+- **Transformer-Based Classification:** Fine-tuned RoBERTa models perform contradiction classification.  
+- **Generative Validation:** LLMs resolve ambiguous or context-dependent contradictions.  
+- **Hybrid Evaluation:** Results are benchmarked on both generated and real-world company text data.
 
-src/classifications uses different chunking methods to find similar chunks, which are subsequently classified by a roberta model. The classification results are then passed onto Llama 3.
+---
 
- 
-src/llm contains the notebook for Llama 3.
-
-
-results contains the fine-tuning and classifications results for the different models and chunking methods.
-
-
-Further explanations are in the notebooks.
-
+## 📊 Key Results
+- Automatically generated a **domain-specific contradiction dataset** with over **3,400 labeled sentence pairs**.  
+- Fine-tuned RoBERTa-base achieved **≈81 % accuracy** across 11 contradiction labels.  
+- Simplified 3-class setup (entailment / neutral / contradiction) reached **94–97 % accuracy**.  
+- Embedding-based search efficiently identified related text pairs for contradiction testing.  
+- LLM reasoning improved accuracy for complex contradiction types such as *world knowledge* and *factive* inconsistencies.
