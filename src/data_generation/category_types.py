@@ -71,7 +71,7 @@ temporal = CategoryType(name='temporal',
                                  hypothesis="The actors are currently filming the sequel")])
 
 
-wk = CategoryType(name='worldknowledge',
+worldknowledge = CategoryType(name='worldknowledge',
                             description='A contradiction based on the mismatch in world knowledge has the following characteristics:\
  0. the premise contains the well known knowledge about the world\
  1. the facts and knowledge from the hypothesis contradict the world knowledge in the premise',
