@@ -1,4 +1,4 @@
-# ContraDoc
+# Ensuring Consistency in Knowledge Bases with Generative AI
 
 ## 📘 Overview
 This repository contains a **Generative AI pipeline for detecting contradictions** in unstructured company text data.  
