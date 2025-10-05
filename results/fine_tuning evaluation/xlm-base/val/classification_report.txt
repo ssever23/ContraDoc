@@ -1,0 +1,19 @@
+Report of Search 1 for Epoch 13:
+
+                        precision    recall  f1-score   support
+
+            antonymity     0.3913    0.6000    0.4737        15
+            entailment     0.9091    0.8333    0.8696       108
+    factive_antonymity     0.6667    0.1333    0.2222        15
+factive_embedding_verb     0.7000    0.4667    0.5600        15
+               lexical     0.2500    0.1333    0.1739        15
+              negation     0.5556    1.0000    0.7143        15
+               neutral     0.8611    0.9118    0.8857        68
+               numeric     0.8333    1.0000    0.9091        15
+             structure     0.9231    0.8000    0.8571        15
+              temporal     0.5789    0.7857    0.6667        14
+        worldknowledge     0.6111    0.7333    0.6667        15
+
+              accuracy                         0.7613       310
+             macro avg     0.6618    0.6725    0.6363       310
+          weighted avg     0.7703    0.7613    0.7488       310
