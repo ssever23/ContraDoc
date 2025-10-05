@@ -25,6 +25,8 @@ The **Contradiction Detection (CD) Pipeline** includes the following core compon
 4. **Similarity Search** – Finds related sentence pairs across documents that potentially refer to the same entities or timeframes, a prerequisite for contradictions.  
 5. **LLM Refiner** – A large language model (e.g., Llama 3) re-evaluates or refines uncertain predictions for higher-level semantic validation.
 
+![](https://github.com/ssever23/ContraDoc/blob/main/cd_pipeline.jpg)
+
 ---
 
 ## 🧠 Methodology
